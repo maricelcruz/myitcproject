@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en" dir="Itr">
+
+    <head>
+          <meta charset = "utf-8">
+          <title> Maricel Cruz Personal Site</title>
+
+<body background = "hey.jpg">
+<table cellspacing="10">
+	
+<tr>
+      <td><img src="images/maricel.png" alt= "My test image" width="80" heigth="80"></td> 
+
+      <nav>
+
+	<link rel="stylesheet" href="koffy.css"/>
+ 	<td> <strong> K O F F Y 🗼 </strong> </td> 
+ 	
+
+</table>
+<style>
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #781D42;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: right;
+  padding: 14px 80px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #FEE3EC;
+}
+</style>
+</head>
+        
+    <ul>
+    <li><a href="index.html"> KOFFY</a></li>
+     <li><a href="info.html"> INFORMATION </a></li>
+     <li><a href="author.html"> DREAMSPEAR </a></li>
+    <li><a class= "active" href="contact.html"> CONTACTS </a></li>
+
+    </ul>  
+
+    </nav>
+
+      </head>
+
+<h3> </h3>
+
+<script>
+document.addEventListener("DOMContentLoaded", function(){
+function createParagraph(){
+let para= document.createElement('p');
+para.textContent = "Hi, I'm Koffy who loves Paris. Nice to meet you! To know me more, kindly click ' Koffy's Paris '' above";
+document.body.appendChild(para);
+
+}
+
+const buttons = document.querySelectorAll('button');
+
+for (let i=0; i <=1 ; i++){
+buttons[i].addEventListener('click', createParagraph);
+}
+});
+
+
+</script>
+<body>
+<button> Let me introduce myself</button>
+</body>
+
+<a href="paris.html"> Koffy's Paris Details</a>
+
+
+
+
+
+  </tr>
+</body>
+</html>
