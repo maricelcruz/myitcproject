@@ -1,0 +1,25 @@
+body
+{
+background-color: lightpink;
+background-size: 1950px;
+}
+h3
+{
+    color: #191919;
+    font-size: 25px;
+    font-family: 'Forte'
+}
+li a{
+	color:black;
+}
+span{
+	color: #191919;
+    font-size: 25px;
+    font-family: 'Forte'
+}
+div{
+	color: #191919;
+background-size: 50px;
+    font-size: 30px;
+    font-family: 'Modern No. 20';
+}
